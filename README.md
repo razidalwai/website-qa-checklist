@@ -1,71 +1,66 @@
 # Website QA Checklist
 
-A practical QA checklist for testing e-commerce websites before launch.
+An open-source collection of practical QA checklists and templates for testing e-commerce websites before launch.
 
-## Homepage
-- [ ] Logo displays correctly
-- [ ] Navigation links work
-- [ ] Homepage banners display correctly
-- [ ] CTA buttons redirect to the correct pages
-- [ ] Images are optimized and loading properly
-- [ ] Mobile layout is responsive
+The project is designed to help developers, QA testers, project managers, and e-commerce teams systematically review critical website functionality across desktop and mobile.
 
-## Product Listing Page
-- [ ] Products are mapped to the correct categories
-- [ ] Filters work correctly
-- [ ] Sorting works correctly
-- [ ] Product prices display correctly
-- [ ] Product images load properly
-- [ ] Pagination or Load More works
+## 📋 Available Checklists
 
-## Product Detail Page
-- [ ] Product title is correct
-- [ ] Price is displayed correctly
-- [ ] Product images and gallery work
-- [ ] Variants/swatches work
-- [ ] Add to Cart works
-- [ ] Product description is visible
-- [ ] Related products are displayed
+### E-commerce QA
+A complete checklist covering homepage, product listing pages, product detail pages, cart, checkout, and customer accounts.
 
-## Cart & Checkout
-- [ ] Add to Cart works
-- [ ] Quantity can be updated
-- [ ] Products can be removed
-- [ ] Discount codes work correctly
-- [ ] Shipping charges are calculated correctly
-- [ ] Tax is calculated correctly
-- [ ] Payment methods work
-- [ ] Order confirmation is triggered
+➡️ [View E-commerce QA Checklist](checklists/ecommerce.md)
 
-## Customer Account
-- [ ] Registration works
-- [ ] Login works
-- [ ] Forgot Password works
-- [ ] Account information can be updated
-- [ ] Order history displays correctly
-- [ ] Wishlist works
+### 📱 Mobile QA
+Test responsive layouts, mobile navigation, product pages, checkout flows, and compatibility across different mobile devices.
 
-## Mobile Testing
-- [ ] Header and navigation display correctly
-- [ ] No horizontal scrolling
-- [ ] Buttons are clearly visible
-- [ ] Product images resize correctly
-- [ ] Forms are usable on mobile
-- [ ] Footer displays correctly
+➡️ [View Mobile QA Checklist](checklists/mobile.md)
 
-## SEO & Technical
-- [ ] Page titles are added
-- [ ] Meta descriptions are added
-- [ ] Images contain alt text
-- [ ] URLs are clean
-- [ ] No broken links
-- [ ] HTTPS is enabled
-- [ ] 404 page works
+### 🔎 SEO QA
+Review metadata, URLs, headings, images, internal links, technical SEO, mobile usability, and indexing requirements.
 
-## Final Pre-Launch Check
-- [ ] Desktop QA completed
-- [ ] Mobile QA completed
-- [ ] Test order completed
-- [ ] Forms tested
-- [ ] Analytics verified
-- [ ] Final client approval received
+➡️ [View SEO QA Checklist](checklists/seo.md)
+
+### 💳 Checkout QA
+Test the complete purchase journey including cart functionality, discount codes, customer information, shipping, tax, payments, and order confirmation.
+
+➡️ [View Checkout QA Checklist](checklists/checkout.md)
+
+## 🐛 Bug Reporting
+
+A reusable bug-report template is included to help teams document issues consistently with reproduction steps, expected results, actual results, severity, and testing environment.
+
+➡️ [Use Bug Report Template](templates/bug-report.md)
+
+## 🎯 Project Goals
+
+This project aims to:
+
+- Make website QA easier to organize and repeat
+- Provide reusable checklists for e-commerce projects
+- Reduce commonly missed issues before website launches
+- Encourage consistent bug reporting
+- Build a community-maintained QA knowledge base
+- Introduce automated testing examples in future versions
+
+## 🚀 Roadmap
+
+Planned additions include:
+
+- Accessibility QA checklist
+- Performance testing checklist
+- Cross-browser testing checklist
+- Shopify-specific QA checklist
+- WooCommerce-specific QA checklist
+- Automated testing examples
+- Additional reusable testing templates
+
+## 🤝 Contributing
+
+Contributions, improvements, and new testing scenarios are welcome.
+
+Read the [Contribution Guidelines](CONTRIBUTING.md) before submitting changes.
+
+## License
+
+A license will be added as the project develops.
